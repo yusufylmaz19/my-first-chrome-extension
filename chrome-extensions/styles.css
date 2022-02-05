@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 400px;
+}
+
+:root{
+    --color:rgb(50, 187, 187);
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid  var(--color);
+}
+
+button{
+    border: none;
+    background-color: var(--color);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(.96);
+}
+
+#delete-btn{
+ background-color: #fff;
+ color: var(--color);
+ border: 1px solid var(--color);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+li{
+    margin-top: 2px;
+}
+a{
+    text-decoration-line: none;
+    color: var(--color);
+}
